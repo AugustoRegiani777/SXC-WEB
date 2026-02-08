@@ -1,0 +1,122 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:focus-visible { @apply outline-none ring-2 ring-neon ring-offset-2 ring-offset-primary; }
+@keyframes marquee { 0% { transform: translateX(0%); } 100% { transform: translateX(-50%); } }
+.animate-marquee { display: inline-block; animation: marquee 20s linear infinite; will-change: transform; }
+.leaflet-container { z-index: 0; }
+
+/* ===== Fondo global con imagen (se mantiene) ===== */
+/* Fondo = DEGRADÉ (arriba) + IMAGEN (abajo) */
+body {
+  background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.65), rgba(46,35,109,0.30)),
+    url('/imagenes/RieraPark.jpeg'); /* ojo: sin /public */
+  background-size: 100% auto, 100% auto;          /* capas en orden */
+  background-repeat: no-repeat, no-repeat;
+  background-position: center center, center center;
+  background-attachment: fixed, fixed;
+  color: #fff; /* texto base claro */
+}
+
+/* Fondo = DEGRADÉ (arriba) + IMAGEN (abajo) */
+body {
+  background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.65), rgba(46,35,109,0.30)),
+    url('/imagenes/RieraPark.jpeg'); /* ojo: sin /public */
+  background-size: 100% auto, 100% auto;          /* capas en orden */
+  background-repeat: no-repeat, no-repeat;
+  background-position: center center, center center;
+  background-attachment: fixed, fixed;
+  color: #fff; /* texto base claro */
+}
+
+
+/* ===== Capa "site-bg" (si la usas en otras paginas) ===== */
+.site-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;                 
+  background: url('/bg.jpg') no-repeat top center / cover;
+}
+.site-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.25);
+  pointer-events: none;
+}
+
+/* Fallback mobile */
+@media (max-width: 640px) {
+  .site-bg {
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/* --- Global fixes & utilities --- */
+html, body { max-width: 100%; overflow-x: hidden; }
+
+/* Outline para títulos sobre imagen */
+.text-outline-black { color: #fff; -webkit-text-stroke: 2px #000; text-stroke: 2px #000; }
+
+/* Bloques de legibilidad */
+.readable { background: rgba(0,0,0,0.45); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: .15rem .5rem; display: inline-block; }
+.readable-block { background: rgba(0,0,0,0.35); border: 1px solid rgba(255,255,255,0.08); border-radius: 20px; padding: .5rem .75rem; display: inline-block; }
+.readable-blur { background: rgba(0,0,0,0.30); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); border: 1px solid rgba(255,255,255,0.06); border-radius: 20px; padding: .5rem .75rem; display: inline-block; }
+
+/* Tarjeta vidrio con gradiente: transparente -> blanco suave -> azul/púrpura */
+.card-glass {
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.03) 0%,
+    rgba(255,255,255,0.06) 14%,
+    rgba(255,255,255,0.10) 28%,
+    rgba(255,255,255,0.12) 42%,
+    rgba(255,255,255,0.09) 56%,
+    rgba(46,35,109,0.18) 74%,
+    rgba(46,35,109,0.30) 100%
+  );
+  backdrop-filter: blur(8px);
+}
+
+/* Panel vidrio 3 capas (transparencias consistentes) */
+.glass-3 {
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.08) 0%,
+    rgba(255,255,255,0.04) 48%,
+    rgba(0,0,0,0.35) 100%
+  );
+  backdrop-filter: blur(10px);
+}
+
+/* Variante mas oscura (vidrio transparente, sin blanqueo) */
+.glass-3-dark {
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.06) 0%,
+    rgba(0,0,0,0.18) 52%,
+    rgba(0,0,0,0.38) 100%
+  );
+  backdrop-filter: blur(14px);
+}
+
+/* Vidrio casi nulo (muy transparente) */
+/* Vidrio neutro (sin blanqueo) */
+.glass-3-faint {
+  background: linear-gradient(
+    135deg,
+    rgba(0,0,0,0.015) 0%,
+    rgba(0,0,0,0.03) 52%,
+    rgba(0,0,0,0.06) 100%
+  );
+  backdrop-filter: blur(3px);
+}
+footer * {
+  color: rgba(255, 255, 255, 0.86);
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.45);
+}
+
