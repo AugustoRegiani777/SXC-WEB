@@ -91,14 +91,14 @@ export default function SkateEventsModal({ open, onClose }) {
           <ol className="space-y-4 text-sm text-white/90">
             {skateEvents.map((ev, idx) => {
               const flyer = ev.flyerImageUrl
-              const isPsl = ev.name?.includes('PSL') || ev.name?.includes('Professional Skateboard League')
-              const isWof = ev.name?.includes('Wheels of Fortune') || ev.name?.includes('WOF')
               const dateText = ev.date ? formatDate(ev.date) : formatDateRange(ev.dateRange) ?? 'TBA'
               const primaryLink = ev.officialUrl || ev.instagramUrl
               const CardTag = primaryLink ? 'a' : 'div'
               const cardProps = primaryLink
                 ? { href: primaryLink, target: '_blank', rel: 'noreferrer' }
                 : {}
+              const isPsl = ev.name?.includes('PSL') || ev.name?.includes('Professional Skateboard League')
+              const isWof = ev.name?.includes('Wheels of Fortune') || ev.name?.includes('WOF')
               const isPast = isPastEvent(ev)
 
               return (

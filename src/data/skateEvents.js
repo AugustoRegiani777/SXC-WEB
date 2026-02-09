@@ -26,7 +26,7 @@
     location: 'Green Bay, Wisconsin, USA',
     dateRange: { startDate: '2026-02-20', endDate: '2026-02-21' },
     instagramUrl: 'https://www.instagram.com/p/DT38vNgCCuk/',
-    flyerImageUrl: 'https://theboardr.blob.core.windows.net/eventsicons/4286.jpg',
+    flyerImageUrl: '/imagenes/eventos/Titletown Throw Down.png',
     notes: 'Open all ages and skills contest.',
   },
   {
@@ -56,8 +56,7 @@
     location: 'SÃ£o Paulo, Brazil',
     dateRange: { startDate: '2026-03-01', endDate: '2026-03-08' },
     officialUrl: 'https://www.worldskate.org/skateboarding.html',
-    flyerImageUrl:
-      'https://www.worldskate.org/images/WST_2025_ANNOUNCEMENT/WST_Sao_Paulo_2025_Calendar/large/WORLD_CHAMPIONSHIP_SAO_PAULO_Primary_Logo_vertical.png',
+    flyerImageUrl: '/imagenes/eventos/World Skate Street and Park World Championships.png',
     referenceUrl:
       'https://www.worldskate.org/news/44-discipline/skateboarding/3859-2026-skateboarding-calendar-release.html',
   },
@@ -78,7 +77,7 @@
     dateRange: { startDate: '2026-03-12', endDate: '2026-03-14' },
     officialUrl: 'https://florideahswampfest.com/',
     instagramUrl: 'https://www.instagram.com/florideahswampfest/',
-    flyerImageUrl: 'https://theboardr.blob.core.windows.net/eventsicons/4252hero600.jpg',
+    flyerImageUrl: '/imagenes/eventos/Swampfest Presented by Monster Energy.png',
     referenceUrl: 'https://theboardr.com/events/4252/Swampfest_Presented_by_Monster_Energy',
   },
   {
@@ -87,8 +86,7 @@
     dateRange: { startDate: '2026-03-13', endDate: '2026-03-15' },
     officialUrl: 'https://www.fise.fr/en/powered-fise-2026/fise-battle-champions-2026',
     instagramUrl: 'https://www.instagram.com/fiseworld/',
-    flyerImageUrl:
-      'https://www.fise.fr/sites/default/files/styles/thumbnail/public/resources/logos/world_0%20%281%29_0_1.png?itok=7Xur2ZDV',
+    flyerImageUrl: '/imagenes/eventos/FISE.png',
     referenceUrl: 'https://theboardr.com/events/4271/FISE_Battle_of_the_Champions',
   },
   {
@@ -107,7 +105,7 @@
     location: 'Phoenix, Arizona, USA',
     dateRange: { startDate: '2026-03-21', endDate: '2026-03-22' },
     officialUrl: 'https://phxam.com/',
-    flyerImageUrl: 'https://phxam.com/~cowtown/wp-content/uploads/2026/01/PHXAM-2026-793x1024.jpg',
+    flyerImageUrl: '/imagenes/eventos/Phoenix Am.png',
     referenceUrl: 'https://theboardr.com/events/4276/Phoenix_Am',
   },
   {
@@ -115,7 +113,7 @@
     location: 'Long Beach, California, USA',
     dateRange: { startDate: '2026-03-21', endDate: '2026-03-22' },
     instagramUrl: 'https://www.instagram.com/kasso_0318/?hl=es',
-    flyerImageUrl: 'https://theboardr.blob.core.windows.net/eventsicons/4324.jpg',
+    flyerImageUrl: '/imagenes/eventos/kasso.png',
     notes: 'Skateboard stunts.',
   },
   {
@@ -145,7 +143,7 @@
     dateRange: { startDate: '2026-04-09', endDate: '2026-04-12' },
     officialUrl: 'https://skateparkoftampa.com/pages/32nd-annual-tampa-pro',
     instagramUrl: 'https://www.instagram.com/spottampa/',
-    flyerImageUrl: 'https://skateparkoftampa.com/cdn/shop/files/city-star-web_594x326.png?v=1732807311',
+    flyerImageUrl: '/imagenes/eventos/Tampa.png',
     referenceUrl: 'https://theboardr.com/events/4272/Tampa_Pro',
   },
   {
@@ -154,7 +152,7 @@
     dateRange: { startDate: '2026-04-17', endDate: '2026-04-18' },
     officialUrl:
       'https://www.skateboards.com/events/9ecb62cb-fe52-4fbb-b30c-364c508f6485/visit-mooresville-presents-the-2nd-annual-race-city-open?srsltid=AfmBOopIHVuxPD1JT4XHC4fQcDX5fdne9Jpl4bZzcH_Gg-vNivuzxz6m',
-    flyerImageUrl: 'https://theboardr.blob.core.windows.net/eventsicons/4265.jpg',
+    flyerImageUrl: '/imagenes/eventos/Visit Mooresville Presents the 2nd Annual Race City Open.png',
     notes:
       'The 2nd Annual bowl and street jam in Mooresville, NC celebrating Race City.',
   },
@@ -163,15 +161,14 @@
     location: 'Montpellier, France',
     dateRange: { startDate: '2026-05-13', endDate: '2026-05-17' },
     officialUrl: 'https://www.fise.fr/',
-    flyerImageUrl:
-      'https://www.fise.fr/sites/default/files/styles/thumbnail/public/resources/logos/world_0%20%281%29_0_1.png?itok=7Xur2ZDV',
+    flyerImageUrl: '/imagenes/eventos/FISE.png',
   },
   {
     name: 'JACKALOPE Block Party Ventura',
     location: 'Ventura, California, USA',
     dateRange: { startDate: '2026-05-01', endDate: '2026-05-03' },
     officialUrl: 'https://jackalope.tribu.co/ventura/',
-    flyerImageUrl: 'https://theboardr.blob.core.windows.net/eventsicons/4286.jpg',
+    flyerImageUrl: '/imagenes/eventos/Jackalope Ventura.png',
     referenceUrl: 'https://theboardr.com/events/4286/Jackalope_Ventura',
   },
   {
@@ -189,8 +186,7 @@
     dateRange: { startDate: '2026-05-15', endDate: '2026-05-17' },
     officialUrl: 'https://www.skatelikeagirl.com/wof.html',
     instagramUrl: 'https://www.instagram.com/skatelikeagirl/',
-    flyerImageUrl:
-      'https://www.skatelikeagirl.com/uploads/3/1/1/5/31151579/1-wof13-cover-noise-copy_orig.jpg',
+    flyerImageUrl: '/imagenes/eventos/Wheels of Fortune.png',
     referenceUrl: 'https://theboardr.com/events/4294/Wheels_of_Fortune',
   },
   {
@@ -199,7 +195,7 @@
     dateRange: { startDate: '2026-05-15', endDate: '2026-05-17' },
     officialUrl: 'https://www.skullcandy.com/',
     instagramUrl: 'https://www.instagram.com/skullcandy/',
-    flyerImageUrl: 'https://theboardr.blob.core.windows.net/eventsicons/4327hero600.jpg',
+    flyerImageUrl: '/imagenes/eventos/Skullcandy Crusher Cup.png',
     referenceUrl: 'https://theboardr.com/events/4327/Skullcandy_Crusher_Cup',
     notes:
       'No encontrÃ© una landing oficial dedicada 2026; oficial = Skullcandy, detalles/confirmaciÃ³n suele salir por IG + TheBoardr.',
@@ -209,7 +205,7 @@
     location: 'Jacksonville, Florida, USA (Kona Skatepark)',
     dateRange: { startDate: '2026-06-05', endDate: '2026-06-07' },
     officialUrl: 'https://www.konaskatepark.com/',
-    flyerImageUrl: 'https://theboardr.blob.core.windows.net/eventsicons/4290.jpg',
+    flyerImageUrl: '/imagenes/eventos/kona.png',
     referenceUrl: 'https://theboardr.com/events/4290/Kona_Summer_Nationals',
   },
   {
@@ -227,7 +223,7 @@
     location: 'Sacramento, California, USA',
     dateRange: { startDate: '2026-06-26', endDate: '2026-06-28' },
     officialUrl: 'https://www.xgames.com/events/sacramento-2026/',
-    flyerImageUrl: 'https://www.xgames.com/wp-content/uploads/2025/08/X-Games-1-1.svg',
+    flyerImageUrl: '/imagenes/eventos/x games.png',
     referenceUrl: 'https://theboardr.com/events/4321/X_Games_Sacramento',
   },
   {
@@ -235,7 +231,7 @@
     location: 'Atlanta, Georgia, USA',
     date: '2026-06-27',
     officialUrl: 'https://www.redbull.com/us-en/events/red-bull-boarding-pass',
-    flyerImageUrl: 'https://theboardr.blob.core.windows.net/eventsicons/4254hero600.jpg',
+    flyerImageUrl: '/imagenes/eventos/Red Bull Boarding Pass at Atlanta.png',
     referenceUrl: 'https://theboardr.com/events/4254/Red_Bull_Boarding_Pass_at_Atlanta',
     notes:
       'La landing oficial de Red Bull lista el evento (por aÃ±o/schedule cuando publican); TheBoardr suele reflejar la fecha por ciudad.',
@@ -245,7 +241,7 @@
     location: 'Japan (City TBA)',
     dateRange: { startDate: '2026-07-04', endDate: '2026-07-05' },
     officialUrl: 'https://www.xgames.com/news/x-games-league-summer-locations-sac-japan-2026/',
-    flyerImageUrl: 'https://www.xgames.com/wp-content/uploads/2025/08/X-Games-1-1.svg',
+    flyerImageUrl: '/imagenes/eventos/x games.png',
     referenceUrl: 'https://www.xgames.com/xgl/',
   },
   {
@@ -253,8 +249,7 @@
     location: 'Birmingham, USA',
     dateRange: { startDate: '2026-08-06', endDate: '2026-08-09' },
     officialUrl: 'https://www.fise.fr/',
-    flyerImageUrl:
-      'https://www.fise.fr/sites/default/files/styles/thumbnail/public/resources/logos/world_0%20%281%29_0_1.png?itok=7Xur2ZDV',
+    flyerImageUrl: '/imagenes/eventos/FISE.png',
   },
   {
     name: 'Street League Skateboarding (SLS) — Stop 04 Brazil (Month confirmed)',
@@ -288,7 +283,7 @@
     dateRange: { startDate: '2026-09-17', endDate: '2026-09-19' },
     officialUrl: 'https://skatedsm.org/streetstyleopen/',
     instagramUrl: 'https://www.instagram.com/skatedsm/',
-    flyerImageUrl: 'https://theboardr.blob.core.windows.net/eventsicons/4273.jpg',
+    flyerImageUrl: '/imagenes/eventos/Des Moines Streetstyle Open.png',
     referenceUrl: 'https://theboardr.com/events/4273/Des_Moines_Streetstyle_Open',
   },
   {
@@ -297,7 +292,7 @@
     date: '2026-09-18',
     officialUrl: 'https://www.theboardrseries.com/',
     instagramUrl: 'https://www.instagram.com/theboardr/',
-    flyerImageUrl: 'https://theboardr.blob.core.windows.net/eventsicons/4309hero600.jpg',
+    flyerImageUrl: '/imagenes/eventos/Des Moines Streetstyle Open.png',
     referenceUrl:
       'https://theboardr.com/events/4309/The_Boardr_Series_Championships_in_Association_with_Des_Moines_Streetstyle_Open',
   },
@@ -316,7 +311,7 @@
     dateRange: { startDate: '2026-10-15', endDate: '2026-10-18' },
     officialUrl: 'https://skateparkoftampa.com/blogs/events/32nd-annual-tampa-am',
     instagramUrl: 'https://www.instagram.com/spottampa/',
-    flyerImageUrl: 'https://skateparkoftampa.com/cdn/shop/files/city-star-web_594x326.png?v=1732807311',
+    flyerImageUrl: '/imagenes/eventos/Tampa.png',
     referenceUrl: 'https://theboardr.com/events/4297/Tampa_Am',
   },
   {
@@ -324,8 +319,7 @@
     location: 'Shanghai, China',
     dateRange: { startDate: '2026-10-15', endDate: '2026-10-18' },
     officialUrl: 'https://www.fise.fr/',
-    flyerImageUrl:
-      'https://www.fise.fr/sites/default/files/styles/thumbnail/public/resources/logos/world_0%20%281%29_0_1.png?itok=7Xur2ZDV',
+    flyerImageUrl: '/imagenes/eventos/FISE.png',
   },
   {
     name: 'Street League Skateboarding (SLS) — Stop 06 Japan (Month confirmed)',
@@ -342,7 +336,7 @@
     dateRange: { startDate: '2026-11-06', endDate: '2026-11-08' },
     officialUrl: 'https://exposureskate.org/',
     instagramUrl: 'https://www.instagram.com/exposureskate/',
-    flyerImageUrl: 'https://theboardr.blob.core.windows.net/eventsicons/4299hero600.jpg',
+    flyerImageUrl: '/imagenes/eventos/exposure.png',
     referenceUrl: 'https://theboardr.com/events/4299/Exposure',
     notes:
       'Exposure es el organizador oficial; el evento con esas fechas aparece listado en TheBoardr como referencia.',
@@ -352,8 +346,7 @@
     location: 'Sakai, Japan',
     dateRange: { startDate: '2026-11-25', endDate: '2026-11-29' },
     officialUrl: 'https://www.fise.fr/',
-    flyerImageUrl:
-      'https://www.fise.fr/sites/default/files/styles/thumbnail/public/resources/logos/world_0%20%281%29_0_1.png?itok=7Xur2ZDV',
+    flyerImageUrl: '/imagenes/eventos/FISE.png',
   },
   {
     name: 'Street League Skateboarding (SLS) — Stop 07 Brazil (Month confirmed)',
@@ -370,15 +363,14 @@
     date: '2026 (multiple dates)',
     officialUrl:
       'https://www.worldskate.org/news/44-discipline/skateboarding/3859-2026-skateboarding-calendar-release.html',
-    flyerImageUrl:
-      'https://www.worldskate.org/images/2026_Skateboarding_Calendar_Images/medium/SB_Event_Calendar_2026_1920x1080-3.jpg',
+    flyerImageUrl: '/imagenes/eventos/World Skate Street and Park World Championships.png',
   },
   {
     name: 'Curitiba Vert Battle',
     location: 'Curitiba, Brazil',
     dateRange: { startDate: '2025-10-10', endDate: '2025-10-12' },
     instagramUrl: 'https://www.instagram.com/vertbattle/',
-    flyerImageUrl: 'https://theboardr.blob.core.windows.net/eventsicons/4277.jpg',
+    flyerImageUrl: '/imagenes/eventos/Curitiba Vert Battle.png',
     notes: 'A vert contest in Curitiba.',
   },
   {
