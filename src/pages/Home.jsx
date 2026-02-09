@@ -2,62 +2,124 @@
 import InfoCard from '../components/InfoCard'
 
 export default function Home() {
+  const weeklyFlyer = '/imagenes/eventosemanal.jpeg'
+  const flyerExpiresAt = new Date(2026, 1, 16, 23, 59, 59)
+  const showWeeklyFlyer = new Date() <= flyerExpiresAt
+
   return (
     <div>
       {/* HERO compacto y centrado */}
       <section className="flex flex-col items-center justify-center text-center min-h-[55vh] px-4 py-4">
         {/* Título */}
-        <h1 className="font-display text-3xl md:text-5xl lg:text-6xl font-black text-outline-black mb-3 leading-tight">
+        {/* <h1 className="font-display text-3xl md:text-5xl lg:text-6xl font-black text-outline-black mb-3 leading-tight">
           SKATE, CULTURE %Street
-        </h1>
+        </h1> */}
 
         {/* Subtítulo */}
-        <p className="max-w-2xl text-white/90 mb-3 readable-blur">
+        {/* <p className="max-w-2xl text-white/90 mb-3 readable-blur">
           Street, cultura, moda y spots seleccionados en Palma. Respeto a la calle, al barrio, al progreso real.
-        </p>
+        </p> */}
 
-        {/* Botones (apilados, 40% en móvil, centrados) */}
-        <div className="flex flex-col items-center gap-3 w-full">
-          <Link
-            to="/platform"
-            className="w-2/5 sm:w-64 inline-flex items-center justify-center rounded-2xl
+                {/* Botones (apilados, 40% en móvil, centrados) */}
+        {showWeeklyFlyer ? (
+          <div className="flex flex-col items-center gap-4 md:flex-row md:items-center md:justify-center md:gap-8 w-full">
+            <div className="order-2 md:order-1 grid grid-cols-2 gap-3 w-full max-w-sm md:max-w-[220px] md:grid-cols-1 md:items-stretch">
+              <Link
+                to="/platform"
+                className="w-full md:w-[220px] inline-flex items-center justify-center rounded-2xl
+                         bg-neon/85 text-frost px-5 py-3 font-semibold border-2 border-transparent
+                         shadow-neonSoft hover:bg-bordo hover:text-neon hover:border-neon hover:shadow-neonHard
+                         transition"
+              >
+                Platform
+              </Link>
+
+              <Link
+                to="/spots"
+                className="w-full md:w-[220px] inline-flex items-center justify-center rounded-2xl
+                         bg-neon/85 text-frost px-5 py-3 font-semibold border-2 border-transparent
+                         shadow-neonSoft hover:bg-bordo hover:text-neon hover:border-neon hover:shadow-neonHard
+                         transition"
+              >
+                Spots
+              </Link>
+            </div>
+
+            <div className="order-1 md:order-2 w-full max-w-[220px] sm:max-w-[260px] mb-2 md:mb-0">
+              <div className="text-sm font-bold uppercase tracking-[0.35em] text-white mb-2 drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">Evento semanal</div>
+              <img
+                src={weeklyFlyer}
+                alt="Evento semanal"
+                className="w-full h-auto rounded-2xl border border-white/10"
+                loading="lazy"
+              />
+            </div>
+
+            <div className="order-3 md:order-3 grid grid-cols-2 gap-3 w-full max-w-sm md:max-w-[220px] md:grid-cols-1 md:items-stretch">
+              <Link
+                to="/showroom"
+                className="w-full md:w-[220px] inline-flex items-center justify-center rounded-2xl
+                         bg-neon/85 text-frost px-5 py-3 font-semibold border-2 border-transparent
+                         shadow-neonSoft hover:bg-bordo hover:text-neon hover:border-neon hover:shadow-neonHard
+                         transition"
+              >
+                Showroom
+              </Link>
+
+              <Link
+                to="/contacto"
+                className="w-full md:w-[220px] inline-flex items-center justify-center rounded-2xl
+                         bg-neon/85 text-frost px-5 py-3 font-semibold border-2 border-transparent
+                         shadow-neonSoft hover:bg-bordo hover:text-neon hover:border-neon hover:shadow-neonHard
+                         transition"
+              >
+                Unite
+              </Link>
+            </div>
+          </div>
+        ) : (
+          <div className="grid grid-cols-2 gap-3 w-full max-w-sm sm:flex sm:flex-col sm:items-center">
+            <Link
+              to="/platform"
+              className="w-full sm:w-64 inline-flex items-center justify-center rounded-2xl
                        bg-neon/85 text-frost px-5 py-3 font-semibold border-2 border-transparent
                        shadow-neonSoft hover:bg-bordo hover:text-neon hover:border-neon hover:shadow-neonHard
                        transition"
-          >
-            Platform
-          </Link>
+            >
+              Platform
+            </Link>
 
-          <Link
-            to="/spots"
-            className="w-2/5 sm:w-64 inline-flex items-center justify-center rounded-2xl
+            <Link
+              to="/spots"
+              className="w-full sm:w-64 inline-flex items-center justify-center rounded-2xl
                        bg-neon/85 text-frost px-5 py-3 font-semibold border-2 border-transparent
                        shadow-neonSoft hover:bg-bordo hover:text-neon hover:border-neon hover:shadow-neonHard
                        transition"
-          >
-            Spots
-          </Link>
+            >
+              Spots
+            </Link>
 
-          <Link
-            to="/showroom"
-            className="w-2/5 sm:w-64 inline-flex items-center justify-center rounded-2xl
+            <Link
+              to="/showroom"
+              className="w-full sm:w-64 inline-flex items-center justify-center rounded-2xl
                        bg-neon/85 text-frost px-5 py-3 font-semibold border-2 border-transparent
                        shadow-neonSoft hover:bg-bordo hover:text-neon hover:border-neon hover:shadow-neonHard
                        transition"
-          >
-            Showroom
-          </Link>
+            >
+              Showroom
+            </Link>
 
-          <Link
-            to="/contacto"
-            className="w-2/5 sm:w-64 inline-flex items-center justify-center rounded-2xl
+            <Link
+              to="/contacto"
+              className="w-full sm:w-64 inline-flex items-center justify-center rounded-2xl
                        bg-neon/85 text-frost px-5 py-3 font-semibold border-2 border-transparent
                        shadow-neonSoft hover:bg-bordo hover:text-neon hover:border-neon hover:shadow-neonHard
                        transition"
-          >
-            Unite
-          </Link>
-        </div>
+            >
+              Unite
+            </Link>
+          </div>
+        )}
       </section>
 
       {/* Sección Misión + Novedades */}
@@ -109,3 +171,21 @@ export default function Home() {
     </div>
   )
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
