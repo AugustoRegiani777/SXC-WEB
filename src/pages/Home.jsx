@@ -49,7 +49,7 @@ export default function Home() {
               <div className="text-sm font-bold uppercase tracking-[0.35em] text-white mb-2 drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">Evento semanal</div>
               <img
                 src={weeklyFlyer}
-                alt="Evento semanal"
+                alt="Billboard events"
                 className="w-full h-auto rounded-2xl border border-white/10"
                 loading="lazy"
               />
@@ -130,10 +130,10 @@ export default function Home() {
           >
             
             <ul className="mt-3 space-y-1 text-white/80">
-             <li>• PSL en vivo</li>
+             <li>• PSL -en vivo-</li>
               <li>• Reggae session 🇯🇲 — Viernes 18hs</li>
               <li>• Skate afternoon — Miércoles 18hs</li>
-              <li>• UFC • PFL • MFL 3 en vivo</li>
+              <li>• UFC • PFL • MFL 3 -en vivo-</li>
               
             </ul>
           </InfoCard>
